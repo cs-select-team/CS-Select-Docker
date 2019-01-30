@@ -1,0 +1,16 @@
+version: '3'
+services:
+    tomcat:
+        build:
+            context: tomcat/
+        ports:
+            - "8080:8080"
+    mysql:
+        environment:
+            MYSQL_ROOT_PASSWORD: "root"
+            MYSQL_USER: admin
+            MYSQL_PASSWORD: admin
+            MYSQL_ROOT_HOST: "%"
+        image: "mysql:latest"
+        ports:
+            - "3306:3306"
