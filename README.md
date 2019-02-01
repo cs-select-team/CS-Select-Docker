@@ -9,3 +9,5 @@ to start the CS-Select server
 
 you can see the database on localhost:3306 with tools like MySQL Workbench. Unless changed the root password is ``root``
 only the root user can be used to access the database from the host, or any other machine for that matter.
+
+this repository uses git submodules, so you might need to run git submodules to download the ml-server

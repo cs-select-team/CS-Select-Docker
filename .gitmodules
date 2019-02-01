@@ -1,0 +1,3 @@
+[submodule "csselectmlserver"]
+	path = csselectmlserver
+	url = https://git.scc.kit.edu/ey6451/csselectmlserver.git
