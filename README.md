@@ -4,7 +4,7 @@ this is the docker-compose file for CS-Select
 to start the CS-Select server
 1. Go into this dir
 2. Execute ``git submodule init``
-3. Execute ``git submodule up``
+3. Execute ``git submodule update``
 4. execute ``sudo docker-compose up``
 5. go into the CS-Select repository and execute ``mvn tomcat7:redeploy``
 
