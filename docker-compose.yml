@@ -5,6 +5,8 @@ services:
             context: tomcat/
         ports:
             - "8080:8080"
+        restart: always
+
     mysql:
         environment:
             MYSQL_ROOT_PASSWORD: "root"
@@ -14,6 +16,9 @@ services:
         image: "mysql:5.7.20"
         ports:
             - "3306:3306"
+        restart: always
     mlserver:
         build:
             context: csselectmlserver/
+        restart: always
+
