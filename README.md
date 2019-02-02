@@ -8,6 +8,7 @@ to start the CS-Select server
 4. execute ``sudo docker-compose up``
 5. go into the CS-Select repository and execute ``mvn tomcat7:redeploy``
 
+if you want to use your own ml server, just edit `tomcat/conf.properties` to fit your needs.
 
 you can see the database on localhost:3306 with tools like MySQL Workbench. Unless changed the root password is ``root``
 only the root user can be used to access the database from the host, or any other machine for that matter.
