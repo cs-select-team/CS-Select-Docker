@@ -11,7 +11,7 @@ services:
             MYSQL_USER: admin
             MYSQL_PASSWORD: admin
             MYSQL_ROOT_HOST: "%"
-        image: "mysql:latest"
+        image: "mysql:5.7.20"
         ports:
             - "3306:3306"
     mlserver:
