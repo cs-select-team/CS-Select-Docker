@@ -3,7 +3,7 @@ This is the docker-compose file for [CS-Select](https://www.github.com/bendixson
 
 To start the CS-Select server
 1. Install [Maven](https://maven.apache.org/)
-1. Install [Docker](https://www.docker.com/)
+1. Install [Docker](https://www.docker.com/). Under Linux you may need to install [Docker Compose](https://www.docker.com/) seperatly.
 1. Go into this directory
 2. Execute ``git submodule init``
 3. Execute ``git submodule update``
